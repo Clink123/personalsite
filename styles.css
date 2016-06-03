@@ -1,0 +1,67 @@
+.nav-wrapper {
+    padding-left: 1%;
+    background-color: #3F51B5;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    padding-left: 1%;
+}
+
+#home {
+    width: 100%;
+    height: calc(100vh - 64px);
+    margin: 0;
+    padding: 0;
+    background-image: url(circuit_board_art-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#home h1 {
+    font-size: 15vh;
+    text-align: center;
+    color: white;
+    padding-top: 17.4%;
+    margin: 0;
+}
+
+#home h3 {
+    font-size: 5vh;
+    text-align: center;
+    color: white;
+}
+#padhere{
+    text-align: center;
+    padding-top: 5vh;
+}
+#gradient {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: #3F51B5 #C5CAE9 transparent transparent;
+  transform: scale(1.0001);
+}
+#gradient2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: #C5CAE9 #3F51B5 transparent transparent;
+  transform: scale(1.0001);
+}
+#about{
+    background-color:#C5CAE9;
+    margin:0;
+}
+#about h1{
+    margin:0;
+    padding-left:5%;
+}
+#about p{
+    pading-left:5%;
+    margin:0;
+}
