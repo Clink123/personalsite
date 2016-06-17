@@ -71,6 +71,10 @@
     text-align: justify;
     color: white;
 }
+#projtitle{
+    padding-top:3vh;
+    text-align: center;
+}
 
 #about a {
     color: #08DEFE;
@@ -85,10 +89,11 @@
 #about p {
     padding-top: 1vh;
     padding-bottom: 1vh;
+    font-size:2.5vh;
 }
 
-#about h3 {
-    padding-top: 1vh;
+#about h1 {
+    font-size:5vh;
 }
 #padthisright{
     padding-right: 5%;
@@ -157,4 +162,128 @@
 }
 #Project2 a:hover{
     color:#0257A0;
+}
+
+
+#Project3 {
+    background-color: #9FC3C7;
+    color:white;
+    padding-left:7%;
+    
+}
+
+#Project3 h2{
+    font-size:5vh;
+    
+}
+#Project3 p{
+    padding-top:4vh;
+    font-size:2.5vh;
+    
+}
+#Project3 img{
+    width:100%;
+    height:auto;
+    padding-left:10%;
+}
+#Project3 a{
+    color:white;
+    text-decoration: none;
+}
+#Project3 a:hover{
+    color:#7f8c8d;
+}
+
+#Project4 {
+    background-color:#95a5a6;
+    color:#282828;
+}
+
+#Project4 h2{
+    font-size:5vh;
+    
+}
+#Project4 p{
+    padding-top:4vh;
+    font-size:2.5vh;
+    padding-right:10%;
+    
+}
+#Project4 img{
+    width:100%;
+    height:auto;
+    padding-right: 10%;
+}
+#Project4 a{
+    color:#282828;
+    text-decoration: none;
+}
+#Project4 a:hover{
+    color:#34495e;
+}
+
+#Project5 {
+    background-color: #7f8c8d;
+    color:white;
+    padding-left:7%;
+    
+}
+
+#Project5 h2{
+    font-size:5vh;
+    
+}
+#Project5 p{
+    padding-top:4vh;
+    font-size:2.5vh;
+    
+}
+#Project5 img{
+    width:100%;
+    height:auto;
+    padding-left:10%;
+}
+#Project5 a{
+    color:white;
+    text-decoration: none;
+}
+#Project5 a:hover{
+    color:#3BB483;
+}
+
+#contact{
+    text-align: center;
+    padding-bottom:5vh;
+    background-color: #02060E;
+}
+#contact h2{
+    font-size: 5vh;
+    color:white;
+}
+#contact p{
+    font-size: 2.5vh;
+    color:white;
+}
+#contact a{
+    text-decoration: none;
+    color:white;
+}
+#contact a:hover{
+    color:#3BB483;
+}
+#contact span {
+    font-size: 7vh;
+}
+
+#footer{
+    background-color: #2c3e50;
+    color:white;
+    text-align:center;
+}
+#footer a{
+    text-decoration: none;
+    color: #08DEFE;
+}
+#footer a:hover{
+    color:#3BB483;
 }

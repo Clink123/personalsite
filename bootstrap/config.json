@@ -1,8 +1,9 @@
 {
   "vars": {},
   "css": [
-    "grid.less"
+    "grid.less",
+    "glyphicons.less"
   ],
   "js": [],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=650f4914dc37f07e20937182438eb231"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=f13f0177ef0388cf09ed4a4ad829648a"
 }
