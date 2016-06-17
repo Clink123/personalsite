@@ -1,30 +1,59 @@
-.nav-wrapper {
-    padding-left: 1%;
-    background-color: #3F51B5;
-    color: #FFFFFF;
-    padding: 0;
+#body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
-    position: fixed;
-    top: 0;
-    padding-left: 1%;
+    padding: 0;
+}
+
+#navbar {
+    text-align: center;
+    padding-top: 2vh;
+}
+
+#navbar li a:hover {
+    color: #08DEFE;
+}
+
+#navbar li a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#navbar li {
+    display: inline;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
 }
 
 #home {
     width: 100%;
-    height: calc(100vh - 64px);
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-image: url(circuit_board_art-wallpaper-1366x768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
+    color: white;
 }
 
 #home h1 {
     font-size: 15vh;
     text-align: center;
     color: white;
-    padding-top: 17.4%;
+    padding-top: 30vh;
     margin: 0;
 }
 
@@ -33,35 +62,99 @@
     text-align: center;
     color: white;
 }
-#padhere{
-    text-align: center;
-    padding-top: 5vh;
+
+#about {
+    background-color: #02060E;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    color: white;
 }
-#gradient {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 90px 100vw 0 0;
-  border-color: #3F51B5 #C5CAE9 transparent transparent;
-  transform: scale(1.0001);
+
+#about a {
+    color: #08DEFE;
+    text-decoration: none;
 }
-#gradient2 {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 90px 100vw 0 0;
-  border-color: #C5CAE9 #3F51B5 transparent transparent;
-  transform: scale(1.0001);
+
+#about a:hover {
+    color: #3BB483;
+    opacity: 70%;
 }
-#about{
-    background-color:#C5CAE9;
-    margin:0;
+
+#about p {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
-#about h1{
-    margin:0;
-    padding-left:5%;
+
+#about h3 {
+    padding-top: 1vh;
 }
-#about p{
-    pading-left:5%;
-    margin:0;
+#padthisright{
+    padding-right: 5%;
+    background-color: #02060E;
+}
+#padthisbottom{
+    padding-bottom: 5%;
+    background-color: #02060E;
+}
+#padthisleft{
+    padding-left: 5%;
+    background-color: #02060E;
+}
+#Project1 {
+    background-color: #455A64;
+    color:white;
+    padding-left:7%;
+    
+}
+
+#Project1 h2{
+    font-size:5vh;
+    
+}
+#Project1 p{
+    padding-top:4vh;
+    font-size:2.5vh;
+    
+}
+#Project1 img{
+    width:100%;
+    height:auto;
+}
+#Project1 a{
+    color:white;
+    text-decoration: none;
+}
+#Project1 a:hover{
+    color:#619189;
+}
+
+
+#Project2 {
+    background-color:#E2F0F3;
+    color:#282828;
+}
+
+#Project2 h2{
+    font-size:5vh;
+    
+}
+#Project2 p{
+    padding-top:4vh;
+    font-size:2.5vh;
+    padding-right:10%;
+    
+}
+#Project2 img{
+    width:100%;
+    height:auto;
+    padding-right: 10%;
+}
+#Project2 a{
+    color:#282828;
+    text-decoration: none;
+}
+#Project2 a:hover{
+    color:#0257A0;
 }
