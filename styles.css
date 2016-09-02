@@ -1,6 +1,7 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
+
 #body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -87,234 +88,283 @@
 #about p {
     padding-top: 1vh;
     padding-bottom: 1vh;
-    font-size:2.5vh;
+    font-size: 2.5vh;
 }
 
 #about h1 {
-    font-size:5vh;
+    font-size: 5vh;
 }
-#padthisright{
+
+#padthisright {
     padding-right: 5%;
     background-color: #02060E;
 }
-#padthisbottom{
+
+#padthisbottom {
     padding-bottom: 5%;
     background-color: #02060E;
 }
-#padthisleft{
+
+#padthisleft {
     padding-left: 5%;
     background-color: #02060E;
 }
-#Project1 {
-    background-color: #455A64;
-    color:white;
-    padding-left:7%;
-    
-}
 
-#Project1 h2{
-    font-size:5vh;
-    
+#Project1 a:hover {
+    color: #619189;
 }
-#Project1 p{
-    padding-top:4vh;
-    font-size:2.5vh;
-    
-}
-#Project1 img{
-    height:auto;
-    width:100%;
-    padding-left:10%;
-}
-#Project1 a{
-    color:white;
-    text-decoration: none;
-}
-#Project1 a:hover{
-    color:#619189;
-}
-
 
 #Project2 {
-    background-color:#E2F0F3;
-    color:#282828;
+    background-color: #E2F0F3;
+    color: #282828;
 }
 
-#Project2 h2{
-    font-size:5vh;
-    
+#Project2 h2 {
+    font-size: 5vh;
 }
-#Project2 p{
-    padding-top:4vh;
-    font-size:2.5vh;
-    padding-right:10%;
-    
-}
-#Project2 img{
-    height:auto;
-    width:100%;
+
+#Project2 p {
+    padding-top: 4vh;
+    font-size: 2.5vh;
     padding-right: 10%;
 }
-#Project2 a{
-    color:#282828;
-    text-decoration: none;
-}
-#Project2 a:hover{
-    color:#0257A0;
+
+#Project2 img {
+    height: auto;
+    width: 100%;
+    padding-right: 10%;
 }
 
+#Project2 a {
+    color: #282828;
+    text-decoration: none;
+}
+
+#Project2 a:hover {
+    color: #0257A0;
+}
 
 #Project3 {
     background-color: #9FC3C7;
-    color:white;
-    padding-left:7%;
-    
+    color: white;
+    padding-left: 7%;
 }
 
-#Project3 h2{
-    font-size:5vh;
-    
+#Project3 h2 {
+    font-size: 5vh;
 }
-#Project3 p{
-    padding-top:4vh;
-    font-size:2.5vh;
-    
+
+#Project3 p {
+    padding-top: 4vh;
+    font-size: 2.5vh;
 }
-#Project3 img{
-    height:auto;
-    width:100%;
-    padding-left:10%;
+
+#Project3 img {
+    height: auto;
+    width: 100%;
+    padding-left: 10%;
 }
-#Project3 a{
-    color:white;
+
+#Project3 a {
+    color: white;
     text-decoration: none;
 }
-#Project3 a:hover{
-    color:#7f8c8d;
+
+#Project3 a:hover {
+    color: #7f8c8d;
 }
 
 #Project4 {
-    background-color:#95a5a6;
-    color:#282828;
+    background-color: #95a5a6;
+    color: #282828;
 }
 
-#Project4 h2{
-    font-size:5vh;
-    
+#Project4 h2 {
+    font-size: 5vh;
 }
-#Project4 p{
-    padding-top:4vh;
-    font-size:2.5vh;
-    padding-right:10%;
-    
-}
-#Project4 img{
-    height:auto;
-    width:100%;
+
+#Project4 p {
+    padding-top: 4vh;
+    font-size: 2.5vh;
     padding-right: 10%;
 }
-#Project4 a{
-    color:#282828;
+
+#Project4 img {
+    height: auto;
+    width: 100%;
+    padding-right: 10%;
+}
+
+#Project4 a {
+    color: #282828;
     text-decoration: none;
 }
-#Project4 a:hover{
-    color:#34495e;
+
+#Project4 a:hover {
+    color: #34495e;
 }
 
 #Project5 {
     background-color: #7f8c8d;
-    color:white;
-    padding-left:7%;
-    
+    color: white;
+    padding-left: 7%;
 }
 
-#Project5 h2{
-    font-size:5vh;
-    
+#Project5 h2 {
+    font-size: 5vh;
 }
-#Project5 p{
-    padding-top:4vh;
-    font-size:2.5vh;
-    
+
+#Project5 p {
+    padding-top: 4vh;
+    font-size: 2.5vh;
 }
-#Project5 img{
-    height:auto;
-    width:100%;
-    padding-left:10%;
+
+#Project5 img {
+    height: auto;
+    width: 100%;
+    padding-left: 10%;
 }
-#Project5 a{
-    color:white;
+
+#Project5 a {
+    color: white;
     text-decoration: none;
 }
-#Project5 a:hover{
-    color:#3BB483;
+
+#Project5 a:hover {
+    color: #3BB483;
 }
 
 #Project6 {
-    background-color:#B4D0E7;
-    color:#003366;
-    padding-left:7%;
+    background-color: #B4D0E7;
+    color: #003366;
+    padding-left: 7%;
 }
 
-#Project6 h2{
-    font-size:5vh;
+#Project6 h2 {
+    font-size: 5vh;
 }
-#Project6 p{
-    padding-top:4vh;
-    font-size:2.5vh;
-    padding-right:10%;
-    
+
+#Project6 p {
+    padding-top: 4vh;
+    font-size: 2.5vh;
+    padding-right: 10%;
 }
-#Project6 img{
-    height:auto;
-    width:100%;
-    
+
+#Project6 img {
+    height: auto;
+    width: 100%;
 }
-#Project6 a{
-    color:#003366;
+
+#Project6 a {
+    color: #003366;
     text-decoration: none;
 }
-#Project6 a:hover{
-    color:#34495e;
+
+#Project6 a:hover {
+    color: #34495e;
 }
 
-#contact{
+#contact {
     text-align: center;
-    padding-bottom:5vh;
+    padding-bottom: 5vh;
     background-color: #02060E;
 }
-#contact h2{
+
+#contact h2 {
     font-size: 5vh;
-    color:white;
+    color: white;
 }
-#contact p{
+
+#contact p {
     font-size: 2.5vh;
-    color:white;
+    color: white;
 }
-#contact a{
+#problemrow{
+    margin:0;
+}
+#contact a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-#contact a:hover{
-    color:#3BB483;
+
+#contact a:hover {
+    color: #3BB483;
 }
+
 #contact span {
     font-size: 7vh;
 }
 
-#footer{
+#footer {
     background-color: #2c3e50;
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
 }
-#footer a{
+
+#footer a {
     text-decoration: none;
     color: #08DEFE;
 }
-#footer a:hover{
-    color:#3BB483;
+
+#footer a:hover {
+    color: #3BB483;
 }
-#h2tagcontact{
-    margin-right:0;
-    padding-right:0;
+
+#h2tagcontact {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.bmform_outer725339 {
+    width:80%;
+    text-align: center;
+    margin-top:4vh;
+}
+
+.bmform_head725339 {
+    background-color: #2c3e50;
+}
+
+.bm_headetext725339 {
+    color: #ecf0f1;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.bmform_body725339 {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align:center;
+}
+
+.bmform_frmtext725339 {
+    display: block;
+    float: none;
+    text-decoration: none;
+    width: auto;
+    font-weight: bold;
+}
+
+.bmform_frm725339 {
+    color: #000000;
+    float: none;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.bmform_button725339 {
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom:2vh;
+}
+
+.bmform_submit725339 {
+    height:4vh;
+    width:10%;
+}
+
+#btnSubmit{
+    color:#000000;
+    font-size:2vh;
 }
