@@ -1,11 +1,13 @@
 * {
     margin: 0;
+    
 }
 
 #body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #2c3e50;
 }
 
 #navbar {
@@ -67,7 +69,7 @@
 }
 
 #about {
-    background-color: #02060E;
+    background-color: #2c3e50;
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
@@ -95,181 +97,93 @@
     font-size: 5vh;
 }
 
+/********************************Projects****************************/
 #padthisright {
-    padding-right: 5%;
-    background-color: #02060E;
+    margin-right: 5%;
 }
 
 #padthisbottom {
-    padding-bottom: 5%;
-    background-color: #02060E;
+    margin-bottom: 5%;
 }
 
 #padthisleft {
-    padding-left: 5%;
-    background-color: #02060E;
+    margin-left: 5%;
 }
-
-#Project1 a:hover {
-    color: #619189;
+#projects{
+    background-color: #2c3e50;
 }
-
-#Project2 {
-    background-color: #E2F0F3;
-    color: #282828;
-}
-
-#Project2 h2 {
-    font-size: 5vh;
-}
-
-#Project2 p {
-    padding-top: 4vh;
-    font-size: 2.5vh;
-    padding-right: 10%;
-}
-
-#Project2 img {
-    height: auto;
-    width: 100%;
-    padding-right: 10%;
-}
-
-#Project2 a {
-    color: #282828;
-    text-decoration: none;
-}
-
-#Project2 a:hover {
-    color: #0257A0;
-}
-
-#Project3 {
-    background-color: #9FC3C7;
-    color: white;
-    padding-left: 7%;
-}
-
-#Project3 h2 {
-    font-size: 5vh;
-}
-
-#Project3 p {
-    padding-top: 4vh;
-    font-size: 2.5vh;
-}
-
-#Project3 img {
-    height: auto;
-    width: 100%;
-    padding-left: 10%;
-}
-
-#Project3 a {
-    color: white;
-    text-decoration: none;
-}
-
-#Project3 a:hover {
-    color: #7f8c8d;
-}
-
-#Project4 {
-    background-color: #95a5a6;
-    color: #282828;
-}
-
-#Project4 h2 {
-    font-size: 5vh;
-}
-
-#Project4 p {
-    padding-top: 4vh;
-    font-size: 2.5vh;
-    padding-right: 10%;
-}
-
-#Project4 img {
-    height: auto;
-    width: 100%;
-    padding-right: 10%;
-}
-
-#Project4 a {
-    color: #282828;
-    text-decoration: none;
-}
-
-#Project4 a:hover {
-    color: #34495e;
-}
-
-#Project5 {
+#Project {
     background-color: #7f8c8d;
-    color: white;
-    padding-left: 7%;
+    color: #2c3e50;
+    height:50vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#Project5 h2 {
+#Project h2 {
     font-size: 5vh;
+    padding-top:5%;
 }
 
-#Project5 p {
-    padding-top: 4vh;
-    font-size: 2.5vh;
-}
-
-#Project5 img {
-    height: auto;
-    width: 100%;
-    padding-left: 10%;
-}
-
-#Project5 a {
-    color: white;
-    text-decoration: none;
-}
-
-#Project5 a:hover {
-    color: #3BB483;
-}
-
-#Project6 {
-    background-color: #B4D0E7;
-    color: #003366;
-    padding-left: 7%;
-}
-
-#Project6 h2 {
-    font-size: 5vh;
-}
-
-#Project6 p {
+#Project p {
     padding-top: 4vh;
     font-size: 2.5vh;
     padding-right: 10%;
 }
 
-#Project6 img {
-    height: auto;
-    width: 100%;
+#Project img {
+    height: 50vh;
+    max-width: 100%;
 }
 
-#Project6 a {
-    color: #003366;
+#Project a {
+    color: #2c3e50;
     text-decoration: none;
 }
 
-#Project6 a:hover {
-    color: #34495e;
+#Project a:hover {
+    color: #bdc3c7;
 }
+@media only screen and (max-width: 1250px) {
+    #Project p{
+        display: none;
+    }
+    #Project{
+        height:50vh;
+        text-align:center;
+    }
+    #Project img{
+        width:auto;
+        height:30vh;
+    }
+    #padthisleft{
+        margin-left:5%;
+        margin-right:5%;
+    }
+    #padthisright{
+        margin-left:5%;
+        margin-right:5%;
+    }
+}
+/********************************End Projects****************************/
+
+
+
 
 #contact {
     text-align: center;
     padding-bottom: 5vh;
-    background-color: #02060E;
+    background-color: #2c3e50;
 }
-
+@media only screen and (max-width: 1250px) {
+    #contactitem{
+        padding-left:3%;
+        padding-right:3%;
+        display: inline-block;
+    }
+    #contact{
+        text-align:center;
+    }
+}
 #contact h2 {
     font-size: 5vh;
     color: white;
@@ -316,13 +230,14 @@
 }
 
 .bmform_outer725339 {
-    width:80%;
+    width:50%;
     text-align: center;
     margin-top:4vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .bmform_head725339 {
-    background-color: #2c3e50;
+    background-color: #34495e;
 }
 
 .bm_headetext725339 {
@@ -332,7 +247,7 @@
 }
 
 .bmform_body725339 {
-    background-color: #2c3e50;
+    background-color: #34495e;
     color: #ecf0f1;
     text-align:center;
 }
@@ -361,7 +276,7 @@
 
 .bmform_submit725339 {
     height:4vh;
-    width:10%;
+    width:auto;
 }
 
 #btnSubmit{
