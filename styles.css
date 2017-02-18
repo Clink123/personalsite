@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    
 }
 
 #body {
@@ -97,7 +96,9 @@
     font-size: 5vh;
 }
 
+
 /********************************Projects****************************/
+
 #padthisright {
     margin-right: 5%;
 }
@@ -109,30 +110,75 @@
 #padthisleft {
     margin-left: 5%;
 }
-#projects{
+
+#projects {
     background-color: #2c3e50;
 }
+
 #Project {
     background-color: #7f8c8d;
     color: #2c3e50;
-    height:50vh;
+    height: 50vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #Project h2 {
     font-size: 5vh;
-    padding-top:5%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 #Project p {
     padding-top: 4vh;
     font-size: 2.5vh;
     padding-right: 10%;
+    padding-left: 10%;
 }
 
-#Project img {
+.col-md-5 {
+    padding: 0;
     height: 50vh;
-    max-width: 100%;
+}
+
+
+/*IMAGES*/
+
+#positivimg {
+    background-image: url("positivity.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#lsfimg {
+    background-image: url("lsfweb.png");
+    background-size: cover;
+    background-position: center;
+}
+#hackimg {
+    background-image: url("hackbcalogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#wcsimg {
+    background-image: url("wcs.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#bcaappsimg {
+    background-image: url("bcaapps.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#echoimg {
+    background-image: url("echo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 #Project a {
@@ -143,47 +189,70 @@
 #Project a:hover {
     color: #bdc3c7;
 }
+
 @media only screen and (max-width: 1250px) {
+    #Project {
+        height: 50vh;
+        text-align: center;
+    }
+    #Project h2{
+        padding-bottom:0;
+    }
     #Project p{
-        display: none;
+        padding:5vh;
+        padding-top:2vh;
     }
-    #Project{
-        height:50vh;
-        text-align:center;
+    #positivimg {
+        display:none;
     }
-    #Project img{
-        width:auto;
-        height:30vh;
+    #lsfimg {
+        display:none;
     }
-    #padthisleft{
-        margin-left:5%;
-        margin-right:5%;
+    #hackimg {
+        display:none;
     }
-    #padthisright{
-        margin-left:5%;
-        margin-right:5%;
+    #wcsimg {
+        display:none;
+    }
+    #bcaappsimg {
+        display:none;
+    }
+    #echoimg {
+        display:none;
+    }
+    #padthisleft {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #padthisright {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .col-md-7{
+        width:100%;
     }
 }
+
+
 /********************************End Projects****************************/
-
-
-
 
 #contact {
     text-align: center;
     padding-bottom: 5vh;
     background-color: #2c3e50;
 }
+
 @media only screen and (max-width: 1250px) {
-    #contactitem{
-        padding-left:3%;
-        padding-right:3%;
+    #contactitem {
+        padding-left: 3%;
+        padding-right: 3%;
         display: inline-block;
     }
-    #contact{
-        text-align:center;
+    #contact {
+        text-align: center;
     }
 }
+
 #contact h2 {
     font-size: 5vh;
     color: white;
@@ -193,9 +262,11 @@
     font-size: 2.5vh;
     color: white;
 }
-#problemrow{
-    margin:0;
+
+#problemrow {
+    margin: 0;
 }
+
 #contact a {
     text-decoration: none;
     color: white;
@@ -230,9 +301,9 @@
 }
 
 .bmform_outer725339 {
-    width:50%;
+    width: 50%;
     text-align: center;
-    margin-top:4vh;
+    margin-top: 4vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -249,7 +320,7 @@
 .bmform_body725339 {
     background-color: #34495e;
     color: #ecf0f1;
-    text-align:center;
+    text-align: center;
 }
 
 .bmform_frmtext725339 {
@@ -271,15 +342,15 @@
 .bmform_button725339 {
     text-align: center;
     padding-top: 2vh;
-    padding-bottom:2vh;
+    padding-bottom: 2vh;
 }
 
 .bmform_submit725339 {
-    height:4vh;
-    width:auto;
+    height: 4vh;
+    width: auto;
 }
 
-#btnSubmit{
-    color:#000000;
-    font-size:2vh;
+#btnSubmit {
+    color: #000000;
+    font-size: 2vh;
 }
