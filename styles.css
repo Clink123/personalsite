@@ -136,9 +136,21 @@
     padding-left: 10%;
 }
 
-.col-md-5 {
+.imageformat {
     padding: 0;
     height: 50vh;
+    width: 41.66666667%;
+    position: relative;
+    min-height: 1px;
+    float:right;
+}
+.imageformatbottom {
+    padding: 0;
+    height: 50vh;
+    width: 41.66666667%;
+    position: relative;
+    min-height: 1px;
+    float:right;
 }
 
 
@@ -148,12 +160,14 @@
     background-image: url("positivity.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #lsfimg {
     background-image: url("lsfweb.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #hackimg {
     background-image: url("hackbcalogo.png");
@@ -165,6 +179,13 @@
     background-image: url("wcs.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+}
+#processorimg {
+    background-image: url("processor.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #bcaappsimg {
@@ -172,13 +193,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-#echoimg {
-    background-image: url("echo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
 }
 
 #Project a {
@@ -190,7 +204,13 @@
     color: #bdc3c7;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1387px) {
+    #contactmobile{
+        visibility: visible;
+    }
+    #contact{
+        visibility: hidden;
+    }
     #Project {
         min-height: 50vh;
         height:auto;
@@ -203,24 +223,6 @@
         padding:5vh;
         padding-top:2vh;
     }
-    #positivimg {
-        display:none;
-    }
-    #lsfimg {
-        display:none;
-    }
-    #hackimg {
-        display:none;
-    }
-    #wcsimg {
-        display:none;
-    }
-    #bcaappsimg {
-        display:none;
-    }
-    #echoimg {
-        display:none;
-    }
     #padthisleft {
         margin-left: 5%;
         margin-right: 5%;
@@ -232,6 +234,41 @@
     .col-md-7{
         width:100%;
     }
+    .imageformat{
+        width: 100%;
+        min-height: 1px;
+        padding-left: 0;
+        padding-right: 0;
+        height:40vh;
+        margin-top: 5vh;
+    }
+    .imageformatbottom{
+        width: 100%;
+        min-height: 1px;
+        padding-left: 0;
+        padding-right: 0;
+        height:40vh;
+        margin-bottom: 5vh;
+    }
+    
+    #positivimg {
+        background-size: contain;
+    }
+    #lsfimg {
+        background-size: contain;
+    }
+    #hackimg {
+        background-size: contain;
+    }
+    #wcsimg {
+        background-size: contain;
+    }
+    #processorimg {
+        background-size: contain;
+    }
+    #bcaappsimg {
+        background-size: contain;
+    }
 }
 
 
@@ -242,17 +279,23 @@
     padding-bottom: 5vh;
     background-color: #2c3e50;
 }
-
-@media only screen and (max-width: 1350px) {
-    #contactitem {
-        padding-left: 3%;
-        padding-right: 3%;
-        display: inline-block;
-    }
-    #contact {
-        text-align: center;
-    }
+#contactmobile {
+    text-align: center;
+    padding-bottom: 5vh;
+    background-color: #2c3e50;
 }
+#contactmobile{
+    visibility: hidden;
+}
+#contact{
+    visibility: visible;
+}
+
+#contactitem {
+    display: inline-block;
+    text-align: center;
+}
+
 
 #contact h2 {
     font-size: 5vh;
@@ -262,10 +305,6 @@
 #contact p {
     font-size: 2.5vh;
     color: white;
-}
-
-#problemrow {
-    margin: 0;
 }
 
 #contact a {
